@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "myat" => "myatminnaung@appvantage.asia" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "URL", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/myatminnaung/KnobControl.git", :tag => "1.0.0" }
   spec.source_files  = "KnobControl"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5"
